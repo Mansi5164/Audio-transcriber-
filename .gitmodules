@@ -1,0 +1,3 @@
+[submodule "audio-transcribe"]
+	path = audio-transcribe
+	url = https://github.com/Mansi5164/Audio-transcriber-.git
