@@ -1,0 +1,84 @@
+/* Body and Layout Centering */
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+  align-items: center;      /* vertical centering */
+  background-color: rgb(223, 235, 178); /* light background for contrast */
+  font-family: sans-serif;
+  box-shadow: 0 8px 30px rgba(5, 5, 5, 5);
+
+}
+
+/* Main Container */
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* soft shadow */
+}
+
+/* Heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.file-input {
+  display: flex;
+  justify-content: center;  /* horizontally center */
+  align-items: center;
+  margin: 20px 0;
+}
+
+.file-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Upload Button */
+.upload-button {
+  background-color: rgb(193, 218, 104);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: rgb(111, 138, 14);
+}
+
+/* Transcription Output */
+.transcription-result {
+  margin-top: 30px;
+  text-align: center;
+  color: black;
+}
+
+.transcription-result h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.transcription-result p {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  white-space: pre-wrap; /* preserves line breaks */
+}
